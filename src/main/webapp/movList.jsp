@@ -29,7 +29,7 @@
 			%> --%>
 			
 			<c:forEach items="${mov_List}" var="movie">
-				<option value="${movie.id}">${movie.title},${movie.releseYear}</option>
+				<option value="${movie.id}">${movie.title},${movie.preShow}</option>
 			</c:forEach>
 			
 		</select><br> 
